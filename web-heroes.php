@@ -16,7 +16,7 @@
  * Plugin Name:       Web Heroes
  * Plugin URI:        https://github.com/mitch827/web-heroes
  * Description:       This plugin collect all WH related addons
- * Version:           1.0.3a
+ * Version:           1.0.4a
  * Author:            Web Heroes
  * Author URI:        http://www.webhereos.it
  * License:           GPL-2.0+

@@ -128,7 +128,7 @@ class Web_Heroes_Admin {
 	    
 	    $this->plugin_screen_hook_suffix = add_submenu_page(
 		    'web-heroes', 
-		    __( 'Web Heroes Settings', 'web-heroes' ), 
+		    __( 'Web Heroes Plugin list', 'web-heroes' ), 
 		    __( 'General', 'web-heroes' ), 
 		    'manage_options', 
 		    $this->plugin_name, 

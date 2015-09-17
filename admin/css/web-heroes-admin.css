@@ -2,3 +2,99 @@
  * All of the CSS for your admin-specific functionality should be
  * included in this file.
  */
+ 
+#wh-plugin-list {
+  zoom: 1;
+  margin: 25px 18px 0 18px;
+  position: relative;
+}
+#wh-plugin-list:before {
+  content: '';
+  display: block;
+}
+#wh-plugin-list:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#wh-plugin-list .wh-plugin-wrap {
+  float: left;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 12px 24px 12px;
+  width: 20%;
+}
+
+
+@media screen and (max-width: 1800px) {
+  #wh-plugin-list .wh-plugin-wrap {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  #wh-plugin-list .wh-plugin-wrap {
+    width: 33.33%;
+  }
+}
+@media screen and (max-width: 800px) {
+  #wh-plugin-list .wh-plugin-wrap {
+    width: 50%;
+  }
+}
+#wh-plugin-list .wh-plugin {
+  float: left;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  padding: 0;
+  width: 100%;
+  background: #F2F2F2;
+  border: 1px solid #D9D9D9;
+  position: relative;
+  overflow: hidden;
+  /* The Switch - © 2013 Thibaut Courouble - MIT License */
+}
+
+#wh-plugin-list .wh-plugin .img-wrapper-1{ background-color: #239B56; }
+#wh-plugin-list .wh-plugin .img-wrapper-2{ background-color: #FF5733; }
+#wh-plugin-list .wh-plugin .img-wrapper-3{ background-color: #2E86C1; }
+#wh-plugin-list .wh-plugin .img-wrapper-4{ background-color: #F5B041; }
+
+#wh-plugin-list .wh-plugin img {
+  display: block;
+  width: 100px;
+  height: auto;
+  background: none;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#wh-plugin-list .wh-plugin .wh-plugin-text {
+  padding: 20px;
+  background: #ffffff;
+}
+#wh-plugin-list .wh-plugin .wh-plugin-text h4 {
+  margin-top: 0;
+  color: #777777;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+#wh-plugin-list .wh-plugin .wh-plugin-text p.wh-plugin-description {
+  margin-bottom: 0;
+  line-height: 1.35em;
+  color: #777777;
+  min-height: 2.7em;
+}
+#wh-plugin-list .wh-plugin img,
+#wh-plugin-list .wh-plugin,
+#wh-plugin-list .wh-plugin .wh-plugin-text,
+#wh-plugin-list .wh-plugin .wh-plugin-text h4,
+#wh-plugin-list .wh-plugin .wh-plugin-text p {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  min-height: 1em;
+}
